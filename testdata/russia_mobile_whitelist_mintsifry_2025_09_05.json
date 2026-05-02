@@ -1,0 +1,173 @@
+[
+  {
+    "name": "VK",
+    "domain": "vk.com",
+    "category": "social",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Odnoklassniki",
+    "domain": "ok.ru",
+    "category": "social",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Mail.ru",
+    "domain": "mail.ru",
+    "category": "portal",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Max",
+    "domain": "max.ru",
+    "category": "messenger",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the service named by MinTsifry."
+  },
+  {
+    "name": "Gosuslugi",
+    "domain": "gosuslugi.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the service named by MinTsifry."
+  },
+  {
+    "name": "Yandex",
+    "domain": "yandex.ru",
+    "category": "portal",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the Yandex service family named by MinTsifry."
+  },
+  {
+    "name": "Ozon",
+    "domain": "ozon.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Wildberries",
+    "domain": "wildberries.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Avito",
+    "domain": "avito.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Dzen",
+    "domain": "dzen.ru",
+    "category": "portal",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Rutube",
+    "domain": "rutube.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Mir",
+    "domain": "privetmir.ru",
+    "category": "finance",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the Mir payment system named by MinTsifry."
+  },
+  {
+    "name": "President of Russia",
+    "domain": "kremlin.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the site named by MinTsifry."
+  },
+  {
+    "name": "Government of Russia",
+    "domain": "government.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "Representative public domain for the site named by MinTsifry."
+  },
+  {
+    "name": "Beeline",
+    "domain": "beeline.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "MegaFon",
+    "domain": "megafon.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "MTS",
+    "domain": "mts.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Rostelecom",
+    "domain": "rt.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "T2",
+    "domain": "t2.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/vazhnye-internet-servisy-ostayutsya-dostupnymi-vo-vremya-ogranichenij"
+    ],
+    "notes": "First-stage MinTsifry whitelist entry."
+  }
+]

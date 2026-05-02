@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Central Bank of Russia",
+    "domain": "cbr.ru",
+    "category": "finance",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "SberMobile",
+    "domain": "sbermobile.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "ER-Telecom",
+    "domain": "ertelecom.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Russia Land of Opportunity",
+    "domain": "rsv.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Representative public domain for the platform named by MinTsifry."
+  },
+  {
+    "name": "Youth Russia",
+    "domain": "myrosmol.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Representative public domain for the Molodyozh Rossii system named by MinTsifry."
+  },
+  {
+    "name": "Tvoy Hod",
+    "domain": "tvoyhod.online",
+    "category": "education",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Izvestia",
+    "domain": "iz.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "TASS",
+    "domain": "tass.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Domclick",
+    "domain": "domclick.ru",
+    "category": "property",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Caesar Satellite",
+    "domain": "cesarsatellite.ru",
+    "category": "security",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Representative public domain for the service named by MinTsifry."
+  },
+  {
+    "name": "Okko",
+    "domain": "okko.tv",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-popolnilsya-regionalnymi-onlajn-platformami"
+    ],
+    "notes": "Third-stage MinTsifry whitelist entry."
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "State Duma",
+    "domain": "duma.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Representative public domain for the broader state-agency bundle named by MinTsifry."
+  },
+  {
+    "name": "Russian Post",
+    "domain": "pochta.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Alfa-Bank",
+    "domain": "alfabank.ru",
+    "category": "bank",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Chestny Znak",
+    "domain": "crpt.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Representative public domain for the state labelling system named by MinTsifry."
+  },
+  {
+    "name": "Komsomolskaya Pravda",
+    "domain": "kp.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "RIA Novosti",
+    "domain": "ria.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "RBC",
+    "domain": "rbc.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Gazeta.ru",
+    "domain": "gazeta.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Lenta.ru",
+    "domain": "lenta.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Rambler",
+    "domain": "rambler.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Russian Railways",
+    "domain": "rzd.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Tutu",
+    "domain": "tutu.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "2GIS",
+    "domain": "2gis.ru",
+    "category": "maps",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Second-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Maxim",
+    "domain": "taximaxim.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/spisok-dostupnyh-vo-vremya-ogranichenij-raboty-mobilnogo-interneta-sajtov-dopolnen-2"
+    ],
+    "notes": "Representative public domain for the taxi service named by MinTsifry."
+  }
+]

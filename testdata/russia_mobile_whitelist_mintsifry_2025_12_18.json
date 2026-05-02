@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Results of the Year with Vladimir Putin",
+    "domain": "moskva-putinu.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Representative public domain for the information resource named by MinTsifry."
+  },
+  {
+    "name": "Federation Council",
+    "domain": "council.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Ministry of Internal Affairs",
+    "domain": "mvd.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "EMERCOM",
+    "domain": "mchs.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Dvizhenie Pervykh",
+    "domain": "xn--90acagbhgpca7c8c7f.xn--p1ai",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Punycode form of the public domain for the service named by MinTsifry."
+  },
+  {
+    "name": "Aeroflot",
+    "domain": "aeroflot.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Pobeda",
+    "domain": "pobeda.aero",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Obyasnyaem.rf",
+    "domain": "xn--90aivcdt6dxbc.xn--p1ai",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Punycode form of the public domain for the service named by MinTsifry."
+  },
+  {
+    "name": "Rosseti",
+    "domain": "rosseti.ru",
+    "category": "infrastructure",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Motiv",
+    "domain": "motivtelecom.ru",
+    "category": "operator",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Moscow Exchange",
+    "domain": "moex.com",
+    "category": "finance",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "HeadHunter",
+    "domain": "hh.ru",
+    "category": "jobs",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Citydrive",
+    "domain": "citydrive.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Vkusno i Tochka",
+    "domain": "vkusnoitochka.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Delovye Linii",
+    "domain": "dellin.ru",
+    "category": "logistics",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Radioplayer",
+    "domain": "radioplayer.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Argumenty i Fakty",
+    "domain": "aif.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Rossiyskaya Gazeta",
+    "domain": "rg.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Vedomosti",
+    "domain": "vedomosti.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Moskovsky Komsomolets",
+    "domain": "mk.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Channel One",
+    "domain": "1tv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "NTV",
+    "domain": "ntv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "RT",
+    "domain": "rt.com",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Representative public domain for the media brand named by MinTsifry."
+  },
+  {
+    "name": "OTR",
+    "domain": "otr-online.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "TV Center",
+    "domain": "tvc.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "TV-3",
+    "domain": "tv3.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Mir TV",
+    "domain": "mir24.tv",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Representative public domain for the TV channel named by MinTsifry."
+  },
+  {
+    "name": "TNT",
+    "domain": "tnt-online.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "STS",
+    "domain": "ctc.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Representative public domain for the TV channel named by MinTsifry."
+  },
+  {
+    "name": "Spas",
+    "domain": "spastv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Channel Five",
+    "domain": "5-tv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "REN TV",
+    "domain": "ren.tv",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Friday",
+    "domain": "friday.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Domashniy",
+    "domain": "domashniy.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Muz-TV",
+    "domain": "muz-tv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Ivi",
+    "domain": "ivi.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "VkusVill",
+    "domain": "vkusvill.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Auchan",
+    "domain": "auchan.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Spar",
+    "domain": "spar-online.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Metro",
+    "domain": "online.metro-cc.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Representative public domain for the retailer named by MinTsifry."
+  },
+  {
+    "name": "Petrovich",
+    "domain": "petrovich.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/belyj-spisok-dostupnyh-pri-ogranicheniyah-interneta-sajtov-vnov-rasshiren"
+    ],
+    "notes": "Fourth-stage MinTsifry whitelist entry."
+  }
+]

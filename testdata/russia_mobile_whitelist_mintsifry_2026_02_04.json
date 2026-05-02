@@ -1,0 +1,209 @@
+[
+  {
+    "name": "VTB",
+    "domain": "vtb.ru",
+    "category": "bank",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "PSB",
+    "domain": "psbank.ru",
+    "category": "bank",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "CDEK",
+    "domain": "cdek.ru",
+    "category": "delivery",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Kuper",
+    "domain": "kuper.ru",
+    "category": "delivery",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Samokat",
+    "domain": "samokat.ru",
+    "category": "delivery",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "VGTRK",
+    "domain": "vgtrk.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the media group named by MinTsifry."
+  },
+  {
+    "name": "Zvezda",
+    "domain": "tvzvezda.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Vmeste-RF",
+    "domain": "vmeste-rf.tv",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Match TV",
+    "domain": "matchtv.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Kommersant",
+    "domain": "kommersant.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Parlamentskaya Gazeta",
+    "domain": "pnp.ru",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the publication named by MinTsifry."
+  },
+  {
+    "name": "Vitrina TV",
+    "domain": "vitrina.tv",
+    "category": "media",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Federal Tax Service",
+    "domain": "nalog.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the FNS services named by MinTsifry."
+  },
+  {
+    "name": "GIS Housing and Utilities",
+    "domain": "dom.gosuslugi.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the GIS housing system named by MinTsifry."
+  },
+  {
+    "name": "Grand Service Express",
+    "domain": "grandtrain.ru",
+    "category": "transport",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "SBIS",
+    "domain": "sbis.ru",
+    "category": "business",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for Tensor's document workflow services."
+  },
+  {
+    "name": "Kontur",
+    "domain": "kontur.ru",
+    "category": "business",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the document workflow operator named by MinTsifry."
+  },
+  {
+    "name": "Evotor",
+    "domain": "evotor.ru",
+    "category": "business",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Inspector",
+    "domain": "proverki.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the remote-inspection service named by MinTsifry."
+  },
+  {
+    "name": "Rosagroleasing",
+    "domain": "rosagroleasing.ru",
+    "category": "government",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Detsky Mir",
+    "domain": "detmir.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  },
+  {
+    "name": "Burger King Russia",
+    "domain": "burgerkingrus.ru",
+    "category": "retail",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Representative public domain for the brand named by MinTsifry."
+  },
+  {
+    "name": "Megamarket",
+    "domain": "megamarket.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://digital.gov.ru/news/v-belyj-spisok-vklyucheny-novye-servisy"
+    ],
+    "notes": "Fifth-stage MinTsifry whitelist entry."
+  }
+]

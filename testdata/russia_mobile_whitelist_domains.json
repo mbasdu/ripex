@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Gosuslugi",
+    "domain": "gosuslugi.ru",
+    "category": "government",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Government of Russia",
+    "domain": "government.ru",
+    "category": "government",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "President of Russia",
+    "domain": "kremlin.ru",
+    "category": "government",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Yandex",
+    "domain": "yandex.ru",
+    "category": "portal",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service family."
+  },
+  {
+    "name": "VK",
+    "domain": "vk.com",
+    "category": "social",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Odnoklassniki",
+    "domain": "ok.ru",
+    "category": "social",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Mail.ru",
+    "domain": "mail.ru",
+    "category": "portal",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Dzen",
+    "domain": "dzen.ru",
+    "category": "portal",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Ozon",
+    "domain": "ozon.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Wildberries",
+    "domain": "wildberries.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Avito",
+    "domain": "avito.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Rutube",
+    "domain": "rutube.ru",
+    "category": "media",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Kinopoisk",
+    "domain": "kinopoisk.ru",
+    "category": "media",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "2GIS",
+    "domain": "2gis.ru",
+    "category": "maps",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Magnit",
+    "domain": "magnit.ru",
+    "category": "retail",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "MTS",
+    "domain": "mts.ru",
+    "category": "operator",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator account portal."
+  },
+  {
+    "name": "MegaFon",
+    "domain": "megafon.ru",
+    "category": "operator",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator account portal."
+  },
+  {
+    "name": "T2",
+    "domain": "t2.ru",
+    "category": "operator",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator account portal."
+  },
+  {
+    "name": "Beeline",
+    "domain": "beeline.ru",
+    "category": "operator",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator account portal."
+  },
+  {
+    "name": "Rostelecom",
+    "domain": "rt.ru",
+    "category": "operator",
+    "sources": [
+      "https://meduza.io/news/2025/09/05/opublikovan-belyy-spisok-saytov-k-kotorym-budet-dostup-pri-otklyuchenii-interneta-v-rossii-v-nego-voshli-servisy-yandeksa-ozon-wildberries-i-magnit"
+    ],
+    "notes": "Included as a practical operator portal proxy."
+  }
+]

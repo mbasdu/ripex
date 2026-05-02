@@ -1,0 +1,389 @@
+[
+  {
+    "name": "Max",
+    "domain": "max.ru",
+    "category": "messenger",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative domain for the messenger listed in the February 18, 2026 Habr summary."
+  },
+  {
+    "name": "State Duma",
+    "domain": "duma.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative federal government domain explicitly named in the summary."
+  },
+  {
+    "name": "Russian Post",
+    "domain": "pochta.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Megamarket",
+    "domain": "megamarket.ru",
+    "category": "marketplace",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Russian Railways",
+    "domain": "rzd.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Tutu",
+    "domain": "tutu.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Central Bank of Russia",
+    "domain": "cbr.ru",
+    "category": "finance",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Russia Land of Opportunity",
+    "domain": "rsv.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported platform."
+  },
+  {
+    "name": "Domclick",
+    "domain": "domclick.ru",
+    "category": "property",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Okko",
+    "domain": "okko.tv",
+    "category": "media",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Ivi",
+    "domain": "ivi.ru",
+    "category": "media",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Federation Council",
+    "domain": "council.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative federal government domain explicitly named in the summary."
+  },
+  {
+    "name": "Ministry of Internal Affairs",
+    "domain": "mvd.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative ministry domain for the summary's listed online resources."
+  },
+  {
+    "name": "EMERCOM",
+    "domain": "mchs.gov.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative ministry domain for the summary's listed online resources."
+  },
+  {
+    "name": "Aeroflot",
+    "domain": "aeroflot.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Pobeda",
+    "domain": "pobeda.aero",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Rosseti",
+    "domain": "rosseti.ru",
+    "category": "infrastructure",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Moscow Exchange",
+    "domain": "moex.com",
+    "category": "finance",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Public site used as a proxy for the marketplace listed in the summary."
+  },
+  {
+    "name": "HeadHunter",
+    "domain": "hh.ru",
+    "category": "jobs",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Citydrive",
+    "domain": "citydrive.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Vkusno i Tochka",
+    "domain": "vkusnoitochka.ru",
+    "category": "retail",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Delovye Linii",
+    "domain": "dellin.ru",
+    "category": "logistics",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "VkusVill",
+    "domain": "vkusvill.ru",
+    "category": "retail",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Auchan",
+    "domain": "auchan.ru",
+    "category": "retail",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "VTB",
+    "domain": "vtb.ru",
+    "category": "bank",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported banking service."
+  },
+  {
+    "name": "PSB",
+    "domain": "psbank.ru",
+    "category": "bank",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported banking service."
+  },
+  {
+    "name": "CDEK",
+    "domain": "cdek.ru",
+    "category": "delivery",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Kuper",
+    "domain": "kuper.ru",
+    "category": "delivery",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Samokat",
+    "domain": "samokat.ru",
+    "category": "delivery",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "GIS Housing and Utilities",
+    "domain": "dom.gosuslugi.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Public service portal used as a proxy for the listed state information system."
+  },
+  {
+    "name": "Grand Service Express",
+    "domain": "grandtrain.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "SBIS",
+    "domain": "sbis.ru",
+    "category": "business",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative public domain for Tensor's document workflow services."
+  },
+  {
+    "name": "Kontur",
+    "domain": "kontur.ru",
+    "category": "business",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Representative public domain for the listed document workflow operator."
+  },
+  {
+    "name": "Evotor",
+    "domain": "evotor.ru",
+    "category": "business",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Rosagroleasing",
+    "domain": "rosagroleasing.ru",
+    "category": "government",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Detsky Mir",
+    "domain": "detmir.ru",
+    "category": "retail",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Burger King Russia",
+    "domain": "burgerkingrus.ru",
+    "category": "retail",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "Delimobil",
+    "domain": "delimobil.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "BelkaCar",
+    "domain": "belkacar.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported service."
+  },
+  {
+    "name": "SberMobile",
+    "domain": "sbermobile.ru",
+    "category": "operator",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator site."
+  },
+  {
+    "name": "ER-Telecom",
+    "domain": "ertelecom.ru",
+    "category": "operator",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator site."
+  },
+  {
+    "name": "Motiv",
+    "domain": "motivtelecom.ru",
+    "category": "operator",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported operator site."
+  },
+  {
+    "name": "Maxim",
+    "domain": "taximaxim.ru",
+    "category": "transport",
+    "sources": [
+      "https://habr.com/ru/news/1000784/"
+    ],
+    "notes": "Homepage domain used as a proxy for the publicly reported taxi service."
+  }
+]
