@@ -40,15 +40,15 @@ jobs:
 
           stamp="$(date -u +%Y%m%dT%H%M%SZ)"
           version="${release_tag:-main-${stamp}}"
-          bundle_dir="dist/ripex-ru-net-${version}"
-          archive="ripex-ru-net-${version}.zip"
+          bundle_dir="dist/ip-lists-ru-net-${version}"
+          archive="ip-lists-ru-net-${version}.zip"
 
-          test -f assets/ru_all_v4.prefixes.txt
-          test -f assets/manifest.json
+          test -f lists/merged/ru_all_v4.prefixes.txt
+          test -f lists/merged/manifest.json
 
           mkdir -p "$bundle_dir"
-          cp assets/ru_all_v4.prefixes.txt "$bundle_dir/"
-          cp assets/manifest.json "$bundle_dir/"
+          cp lists/merged/ru_all_v4.prefixes.txt "$bundle_dir/"
+          cp lists/merged/manifest.json "$bundle_dir/"
 
           (
             cd "$bundle_dir"

@@ -115,8 +115,8 @@ func parseFlags(name string, args []string) (Config, error) {
 
 	cfg := Config{}
 	fs.StringVar(&cfg.BaseURL, "base-url", defaultBaseURL, "base URL for RIPE split snapshots")
-	fs.StringVar(&cfg.CacheDir, "cache-dir", "data/ripe/cache", "cache directory for downloaded RIPE snapshots")
-	fs.StringVar(&cfg.OutDir, "out-dir", "data/ripe/ru", "output directory for generated datasets")
+	fs.StringVar(&cfg.CacheDir, "cache-dir", ".cache/ripex/ripe", "cache directory for downloaded RIPE snapshots")
+	fs.StringVar(&cfg.OutDir, "out-dir", "build/ripex/ru", "output directory for generated datasets")
 	fs.DurationVar(&cfg.Timeout, "timeout", 5*time.Minute, "HTTP timeout")
 	fs.StringVar(&cfg.UserAgent, "user-agent", "ripex/0.1", "HTTP user agent")
 
@@ -132,8 +132,8 @@ func parsePrefixesFlags(args []string) (PrefixesConfig, error) {
 
 	cfg := PrefixesConfig{}
 	fs.StringVar(&cfg.BaseURL, "base-url", defaultBaseURL, "base URL for RIPE split snapshots")
-	fs.StringVar(&cfg.CacheDir, "cache-dir", "data/ripe/cache", "cache directory for downloaded RIPE snapshots")
-	fs.StringVar(&cfg.OutDir, "out-dir", "data/ripe/ru", "output directory for generated datasets")
+	fs.StringVar(&cfg.CacheDir, "cache-dir", ".cache/ripex/ripe", "cache directory for downloaded RIPE snapshots")
+	fs.StringVar(&cfg.OutDir, "out-dir", "build/ripex/ru", "output directory for generated datasets")
 	fs.DurationVar(&cfg.Timeout, "timeout", 5*time.Minute, "HTTP timeout")
 	fs.StringVar(&cfg.UserAgent, "user-agent", "ripex/0.1", "HTTP user agent")
 	fs.StringVar(&cfg.Dataset, "dataset", "", "dataset name")
@@ -152,9 +152,9 @@ func parseResolveFlags(args []string) (ResolveConfig, error) {
 	fs.SetOutput(os.Stderr)
 
 	cfg := ResolveConfig{}
-	fs.StringVar(&cfg.Input, "input", "data/outside/russia-outside.lst", "newline-delimited list of domains to resolve")
+	fs.StringVar(&cfg.Input, "input", "sources/domains/russia-outside.lst", "newline-delimited list of domains to resolve")
 	fs.StringVar(&cfg.Dataset, "dataset", "ru_direct_domains_v4", "output dataset name")
-	fs.StringVar(&cfg.OutDir, "out-dir", "data/ripe/ru", "output directory for generated dataset files")
+	fs.StringVar(&cfg.OutDir, "out-dir", "build/ripex/ru", "output directory for generated dataset files")
 	fs.StringVar(&cfg.Resolver, "resolver", "", "optional DNS resolver host:port (default: system resolver)")
 	fs.IntVar(&cfg.Concurrency, "concurrency", 16, "max parallel DNS queries")
 	fs.DurationVar(&cfg.Timeout, "timeout", 5*time.Second, "per-domain DNS timeout")

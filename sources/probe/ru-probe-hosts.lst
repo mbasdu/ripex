@@ -1,0 +1,46 @@
+# Curated hostnames that reveal VPN/proxy use or are used for public IP checks.
+# These stay in the direct RU set so local services that probe the client's
+# public IP do not break when the tunnel is active.
+
+# Public IP-check endpoints
+checkip.amazonaws.com
+ifconfig.co
+ifconfig.me
+icanhazip.com
+ident.me
+ipecho.net
+ipinfo.io
+myip.dnsomatic.com
+api.ipify.org
+api.myip.com
+ip-api.com
+whoer.net
+2ip.ru
+vpn.fail
+
+# DNS / resolver endpoints used by VPN-detection code
+dns.google
+cloudflare-dns.com
+dns.yandex.ru
+
+# Reporting / telemetry endpoints identified in the research notes
+mc.yandex.ru
+clck.yandex.ru
+an.yandex.ru
+suggest.yandex.ru
+yandex.ru
+yandex.net
+yandex.com
+tracker-api.vk-analytics.ru
+sdk-api.apptracer.ru
+api.oneme.ru
+i.oneme.ru
+portal-sentry-v2.vk.team
+app-measurement.com
+google-analytics.com
+firebase-settings.crashlytics.com
+api.segment.io
+graph.facebook.com
+vk.com
+mail.ru
+ok.ru

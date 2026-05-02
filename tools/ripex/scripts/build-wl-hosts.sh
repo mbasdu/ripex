@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TOOL_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$TOOL_ROOT/../.." && pwd)"
 SOURCE_URL="${SOURCE_URL:-https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/main/whitelist.txt}"
-OUT_DIR="${OUT_DIR:-$ROOT_DIR/data/ripe/ru}"
+OUT_DIR="${OUT_DIR:-$REPO_ROOT/build/ripex/ru}"
 DATASET="${DATASET:-ru_wl_hosts_v4}"
+PUBLIC_DIR="${PUBLIC_DIR:-$REPO_ROOT/lists/whitelist}"
 MODE="${MODE:-local}"
 SSH_TARGET="${SSH_TARGET:-}"
-SSH_WORKDIR="${SSH_WORKDIR:-$ROOT_DIR}"
+SSH_WORKDIR="${SSH_WORKDIR:-$REPO_ROOT}"
 RESOLVER="${RESOLVER:-}"
 CONCURRENCY="${CONCURRENCY:-16}"
 TIMEOUT="${TIMEOUT:-5s}"
@@ -16,18 +18,20 @@ SSH_GO_BIN="${SSH_GO_BIN:-go}"
 
 usage() {
   cat <<'EOF'
-Usage: scripts/build-wl-hosts.sh
+Usage: tools/ripex/scripts/build-wl-hosts.sh
 
 Downloads hxehex/russia-mobile-internet-whitelist whitelist.txt and
 resolves it into a separate WL-host dataset:
-  - data/ripe/ru/ru_wl_hosts_v4.jsonl
-  - data/ripe/ru/ru_wl_hosts_v4.csv
-  - data/ripe/ru/ru_wl_hosts_v4.prefixes.txt
+  - build/ripex/ru/ru_wl_hosts_v4.jsonl
+  - build/ripex/ru/ru_wl_hosts_v4.csv
+  - build/ripex/ru/ru_wl_hosts_v4.prefixes.txt
+  - lists/whitelist/ru_wl_hosts_v4.prefixes.txt
 
 Environment overrides:
   SOURCE_URL   Upstream raw whitelist URL
   OUT_DIR      Output directory for generated artifacts
   DATASET      Output dataset name
+  PUBLIC_DIR   Published WL-host list directory
   MODE         local or ssh (default: local)
   SSH_TARGET   SSH target for MODE=ssh, e.g. user@host
   SSH_WORKDIR  Repo checkout path on the remote host
@@ -85,7 +89,7 @@ run_resolve() {
     resolve_args+=(--ssh-go-bin "$SSH_GO_BIN")
   fi
 
-  bash "$ROOT_DIR/scripts/resolve-hosts.sh" "${resolve_args[@]}"
+  bash "$TOOL_ROOT/scripts/resolve-hosts.sh" "${resolve_args[@]}"
 }
 
 tmpdir="$(mktemp -d)"
@@ -97,8 +101,11 @@ download "$SOURCE_URL" "$source_path"
 
 printf 'Resolving WL hosts into %s/%s.*\n' "$OUT_DIR" "$DATASET"
 run_resolve "$source_path"
+mkdir -p "$PUBLIC_DIR"
+cp "$OUT_DIR/$DATASET.prefixes.txt" "$PUBLIC_DIR/$DATASET.prefixes.txt"
 
 printf 'Ready:\n'
 printf '  %s/%s.prefixes.txt\n' "$OUT_DIR" "$DATASET"
 printf '  %s/%s.csv\n' "$OUT_DIR" "$DATASET"
 printf '  %s/%s.jsonl\n' "$OUT_DIR" "$DATASET"
+printf '  %s/%s.prefixes.txt\n' "$PUBLIC_DIR" "$DATASET"

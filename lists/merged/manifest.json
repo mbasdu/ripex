@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T11:10:11Z",
-  "snapshot_date": "2026-05-01",
+  "generated_at": "2026-05-02T20:53:14Z",
+  "snapshot_date": "2026-05-02",
   "source_urls": [
     "https://ftp.ripe.net/ripe/dbase/split/ripe.db.organisation.gz",
     "https://ftp.ripe.net/ripe/dbase/split/ripe.db.inetnum.gz",
@@ -8,10 +8,10 @@
     "https://ftp.ripe.net/ripe/dbase/split/ripe.db.route.gz"
   ],
   "cached_files": [
-    "data/ripe/cache/ripe.db.organisation.gz",
-    "data/ripe/cache/ripe.db.inetnum.gz",
-    "data/ripe/cache/ripe.db.aut-num.gz",
-    "data/ripe/cache/ripe.db.route.gz"
+    "../../data/ripe/cache/ripe.db.organisation.gz",
+    "../../data/ripe/cache/ripe.db.inetnum.gz",
+    "../../data/ripe/cache/ripe.db.aut-num.gz",
+    "../../data/ripe/cache/ripe.db.route.gz"
   ],
   "parsed": {
     "organisations": 92965,
@@ -48,5 +48,5 @@
       "ru-providers"
     ]
   },
-  "duration_ms": 41067
+  "duration_ms": 41435
 }

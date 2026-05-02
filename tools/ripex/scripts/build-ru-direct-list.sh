@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TOOL_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$TOOL_ROOT/../.." && pwd)"
 SOURCE_URL="${SOURCE_URL:-https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/outside-raw.lst}"
-SOURCE_PATH="${SOURCE_PATH:-$ROOT_DIR/data/outside/russia-outside.lst}"
-PROBE_SOURCE_PATH="${PROBE_SOURCE_PATH:-$ROOT_DIR/data/outside/ru-probe-hosts.lst}"
-OUT_DIR="${OUT_DIR:-$ROOT_DIR/data/ripe/ru}"
+SOURCE_PATH="${SOURCE_PATH:-$REPO_ROOT/sources/domains/russia-outside.lst}"
+PROBE_SOURCE_PATH="${PROBE_SOURCE_PATH:-$REPO_ROOT/sources/probe/ru-probe-hosts.lst}"
+OUT_DIR="${OUT_DIR:-$REPO_ROOT/build/ripex/ru}"
 DATASET="${DATASET:-ru_direct_domains_v4}"
 PROBE_DATASET="${PROBE_DATASET:-ru_probe_hosts_v4}"
+PUBLIC_DOMAINS_DIR="${PUBLIC_DOMAINS_DIR:-$REPO_ROOT/lists/domains}"
+PUBLIC_PROBE_DIR="${PUBLIC_PROBE_DIR:-$REPO_ROOT/lists/probe}"
 MODE="${MODE:-local}"
 SSH_TARGET="${SSH_TARGET:-}"
-SSH_WORKDIR="${SSH_WORKDIR:-$ROOT_DIR}"
+SSH_WORKDIR="${SSH_WORKDIR:-$REPO_ROOT}"
 RESOLVER="${RESOLVER:-}"
 CONCURRENCY="${CONCURRENCY:-16}"
 TIMEOUT="${TIMEOUT:-5s}"
@@ -19,15 +22,17 @@ SSH_GO_BIN="${SSH_GO_BIN:-go}"
 
 usage() {
   cat <<'EOF'
-Usage: scripts/build-ru-direct-list.sh
+Usage: tools/ripex/scripts/build-ru-direct-list.sh
 
 Downloads the latest Russia/outside-raw.lst source list and produces:
-  - data/ripe/ru/ru_direct_domains_v4.jsonl
-  - data/ripe/ru/ru_direct_domains_v4.csv
-  - data/ripe/ru/ru_direct_domains_v4.prefixes.txt
-  - data/ripe/ru/ru_probe_hosts_v4.jsonl
-  - data/ripe/ru/ru_probe_hosts_v4.csv
-  - data/ripe/ru/ru_probe_hosts_v4.prefixes.txt
+  - build/ripex/ru/ru_direct_domains_v4.jsonl
+  - build/ripex/ru/ru_direct_domains_v4.csv
+  - build/ripex/ru/ru_direct_domains_v4.prefixes.txt
+  - build/ripex/ru/ru_probe_hosts_v4.jsonl
+  - build/ripex/ru/ru_probe_hosts_v4.csv
+  - build/ripex/ru/ru_probe_hosts_v4.prefixes.txt
+  - lists/domains/ru_direct_domains_v4.prefixes.txt
+  - lists/probe/ru_probe_hosts_v4.prefixes.txt
 
 Environment overrides:
   SOURCE_URL   Upstream raw list URL
@@ -36,6 +41,8 @@ Environment overrides:
   OUT_DIR      Output directory for generated artifacts
   DATASET      Output dataset name
   PROBE_DATASET Output dataset name for the probe-host subset
+  PUBLIC_DOMAINS_DIR Published direct-domain list directory
+  PUBLIC_PROBE_DIR Published probe-host list directory
   MODE         local or ssh (default: local)
   SSH_TARGET   SSH target for MODE=ssh, e.g. user@host
   SSH_WORKDIR  Repo checkout path on the remote host
@@ -94,10 +101,10 @@ run_resolve() {
     resolve_args+=(--ssh-go-bin "$SSH_GO_BIN")
   fi
 
-  bash "$ROOT_DIR/scripts/resolve-hosts.sh" "${resolve_args[@]}"
+  bash "$TOOL_ROOT/scripts/resolve-hosts.sh" "${resolve_args[@]}"
 }
 
-mkdir -p "$(dirname "$SOURCE_PATH")" "$OUT_DIR"
+mkdir -p "$(dirname "$SOURCE_PATH")" "$OUT_DIR" "$PUBLIC_DOMAINS_DIR" "$PUBLIC_PROBE_DIR"
 tmp="$(mktemp)"
 merged="$(mktemp)"
 trap 'rm -f "$tmp" "$merged"' EXIT
@@ -119,6 +126,9 @@ run_resolve "$merged" "$DATASET"
 printf 'Resolving VPN/IP-check probe hosts from %s\n' "$PROBE_SOURCE_PATH"
 run_resolve "$PROBE_SOURCE_PATH" "$PROBE_DATASET"
 
+cp "$OUT_DIR/$DATASET.prefixes.txt" "$PUBLIC_DOMAINS_DIR/$DATASET.prefixes.txt"
+cp "$OUT_DIR/$PROBE_DATASET.prefixes.txt" "$PUBLIC_PROBE_DIR/$PROBE_DATASET.prefixes.txt"
+
 printf 'Ready:\n'
 printf '  %s/%s.prefixes.txt\n' "$OUT_DIR" "$DATASET"
 printf '  %s/%s.csv\n' "$OUT_DIR" "$DATASET"
@@ -126,3 +136,5 @@ printf '  %s/%s.jsonl\n' "$OUT_DIR" "$DATASET"
 printf '  %s/%s.prefixes.txt\n' "$OUT_DIR" "$PROBE_DATASET"
 printf '  %s/%s.csv\n' "$OUT_DIR" "$PROBE_DATASET"
 printf '  %s/%s.jsonl\n' "$OUT_DIR" "$PROBE_DATASET"
+printf '  %s/%s.prefixes.txt\n' "$PUBLIC_DOMAINS_DIR" "$DATASET"
+printf '  %s/%s.prefixes.txt\n' "$PUBLIC_PROBE_DIR" "$PROBE_DATASET"

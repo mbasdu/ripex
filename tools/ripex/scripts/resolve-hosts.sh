@@ -1,28 +1,29 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TOOL_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$TOOL_ROOT/../.." && pwd)"
 
 MODE="${MODE:-local}"
 INPUT=""
 DATASET=""
-OUT_DIR="${OUT_DIR:-$ROOT_DIR/data/ripe/ru}"
+OUT_DIR="${OUT_DIR:-$REPO_ROOT/build/ripex/ru}"
 RESOLVER="${RESOLVER:-}"
 CONCURRENCY="${CONCURRENCY:-16}"
 TIMEOUT="${TIMEOUT:-5s}"
 SSH_TARGET="${SSH_TARGET:-}"
-SSH_WORKDIR="${SSH_WORKDIR:-$ROOT_DIR}"
+SSH_WORKDIR="${SSH_WORKDIR:-$REPO_ROOT}"
 GO_BIN="${GO_BIN:-}"
 SSH_GO_BIN="${SSH_GO_BIN:-go}"
 
 usage() {
   cat <<'EOF'
-Usage: scripts/resolve-hosts.sh --input PATH --dataset NAME [options]
+Usage: tools/ripex/scripts/resolve-hosts.sh --input PATH --dataset NAME [options]
 
 Options:
   --input PATH          Newline-delimited host list to resolve
   --dataset NAME        Dataset name for generated artifacts
-  --out-dir PATH        Output directory (default: data/ripe/ru)
+  --out-dir PATH        Output directory (default: build/ripex/ru)
   --mode local|ssh      Resolve locally or through ssh (default: local)
   --resolver HOST:PORT  Optional DNS resolver to use in local mode or pass to remote resolve
   --concurrency N       Max parallel DNS queries (default: 16)
@@ -68,7 +69,7 @@ run_local() {
   fi
 
   (
-    cd "$ROOT_DIR"
+    cd "$TOOL_ROOT"
     "$go_cmd" "${args[@]}"
   )
 }
@@ -92,7 +93,7 @@ run_ssh() {
   ssh "$SSH_TARGET" "mkdir -p $(q "$remote_out")"
   scp "$INPUT" "$SSH_TARGET:$remote_input"
 
-  remote_cmd="cd $(q "$SSH_WORKDIR") && $(q "$SSH_GO_BIN") run ./cmd/ripex resolve --input $(q "$remote_input") --dataset $(q "$DATASET") --out-dir $(q "$remote_out") --concurrency $(q "$CONCURRENCY") --timeout $(q "$TIMEOUT")"
+  remote_cmd="cd $(q "$SSH_WORKDIR")/tools/ripex && $(q "$SSH_GO_BIN") run ./cmd/ripex resolve --input $(q "$remote_input") --dataset $(q "$DATASET") --out-dir $(q "$remote_out") --concurrency $(q "$CONCURRENCY") --timeout $(q "$TIMEOUT")"
   if [[ -n "$RESOLVER" ]]; then
     remote_cmd+=" --resolver $(q "$RESOLVER")"
   fi

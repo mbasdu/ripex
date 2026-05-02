@@ -20,7 +20,7 @@ func TestRussiaMobileWhitelistCoverageLive(t *testing.T) {
 	if err != nil {
 		t.Fatalf("LoadEntriesFromPaths() error = %v", err)
 	}
-	prefixes, err := LoadPrefixes(filepath.Join("..", "..", "data", "ripe", "ru", "ru_org_inetnum_plus_ru_as_route_v4.prefixes.txt"))
+	prefixes, err := LoadPrefixes(filepath.Join("..", "..", "..", "lists", "ripe", "ru_org_inetnum_plus_ru_as_route_v4.prefixes.txt"))
 	if err != nil {
 		t.Fatalf("LoadPrefixes() error = %v", err)
 	}
