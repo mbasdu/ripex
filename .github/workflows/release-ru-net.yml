@@ -21,9 +21,11 @@ concurrency:
 jobs:
   package:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Prepare release bundle
         id: bundle
@@ -62,17 +64,17 @@ jobs:
           echo "archive_name=${archive}" >> "$GITHUB_OUTPUT"
           echo "release_tag=${release_tag}" >> "$GITHUB_OUTPUT"
 
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.bundle.outputs.archive_name }}
-          path: ${{ steps.bundle.outputs.archive_path }}
-          if-no-files-found: error
-
       - name: Publish GitHub release asset
         if: ${{ steps.bundle.outputs.release_tag != '' }}
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ steps.bundle.outputs.release_tag }}
-          files: ${{ steps.bundle.outputs.archive_path }}
-          generate_release_notes: true
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          tag="${{ steps.bundle.outputs.release_tag }}"
+          asset="${{ steps.bundle.outputs.archive_path }}"
+
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$asset" --clobber
+          else
+            gh release create "$tag" "$asset" --generate-notes --title "$tag"
+          fi

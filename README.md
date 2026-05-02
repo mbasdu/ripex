@@ -117,8 +117,21 @@ host instead of the local machine.
 
 - `data/ripe/ru/ru_all_v4.prefixes.txt`
 
-It merges and minimizes the RIPE-derived RU dataset plus the direct,
-probe, and WL host feeds into one short deduped prefix list.
+It merges and minimizes four inputs into one short deduped prefix list:
+
+- the RIPE-derived RU provider dataset
+  `ru_org_inetnum_plus_ru_as_route_v4.prefixes.txt`
+- the direct-domain dataset resolved from `Russia/outside-raw.lst`
+  `ru_direct_domains_v4.prefixes.txt`
+- the curated VPN/IP-check probe host dataset
+  `ru_probe_hosts_v4.prefixes.txt`
+- the separate whitelist-host dataset fetched from
+  `hxehex/russia-mobile-internet-whitelist`
+  `ru_wl_hosts_v4.prefixes.txt`
+
+So `ru_all_v4.prefixes.txt` and the release zip are not RIPE-only
+artifacts. They intentionally include both RIPE-derived prefixes and
+non-RIPE host-derived prefixes.
 
 `scripts/build-ru-router-list.sh` also syncs the tracked release files:
 
@@ -130,8 +143,8 @@ Those are the release source-of-truth files committed to the repo.
 The repository also includes a GitHub Actions workflow at
 `.github/workflows/release-ru-net.yml` that does not rebuild datasets.
 It only packages the tracked files from `assets/` into a zip bundle with
-`SHA256SUMS`, uploads it as an Actions artifact, and publishes it as a
-GitHub Release asset on `v*` tags or manual runs with `release_tag`.
+`SHA256SUMS` and publishes it as a GitHub Release asset on `v*` tags or
+manual runs with `release_tag`.
 
 You can build the same merged artifact directly with:
 
