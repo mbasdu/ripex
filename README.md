@@ -8,7 +8,7 @@ This repository is content-first:
 - `lists/` contains the tracked public lists
 - `sources/` contains tracked source inputs used to build some lists
 - `docs/` explains sources and methodology
-- `archive/research/` keeps raw research notes
+- `docs/library/` keeps longer research notes and source material
 - `tools/ripex/` contains the Go generator used to rebuild the datasets
 
 ## Published Lists
@@ -57,11 +57,10 @@ sources/
   domains/
   probe/
 docs/
+  library/
   sources/
   methodology/
   filtering/
-archive/
-  research/
 tools/
   ripex/
 ```
@@ -109,7 +108,7 @@ Start here:
 - `docs/methodology/list-composition.md`
 - `docs/filtering/tspu-and-vpn-detection.md`
 
-The archived raw notes remain in `archive/research/` for traceability,
+The longer research notes remain in `docs/library/` for traceability,
 but they are not the primary documentation surface anymore.
 
 ## Releases

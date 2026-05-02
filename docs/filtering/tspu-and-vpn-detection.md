@@ -7,7 +7,7 @@ The current knowledge model is:
 
 - curated public lists under `lists/`
 - explanatory docs under `docs/`
-- raw investigative notes under `archive/research/`
+- longer investigative notes under `docs/library/`
 
 ## What The Non-RIPE Lists Capture
 
@@ -25,9 +25,9 @@ is not sufficient for real routing decisions.
 
 The raw source material is preserved in:
 
-- `archive/research/habr-1009542-*`
-- `archive/research/habr-1027276-*`
-- `archive/research/rks-vpn-detection-2026.md`
+- `docs/library/habr-1009542-*`
+- `docs/library/habr-1027276-*`
+- `docs/library/rks-vpn-detection-2026.md`
 
 Those files are retained for traceability, but consumer-facing guidance
 should prefer the curated lists and docs first.
