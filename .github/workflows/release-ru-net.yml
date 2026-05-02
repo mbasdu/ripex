@@ -1,0 +1,78 @@
+name: Build RU Net Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Optional version tag to publish/update a GitHub Release"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ru-net-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare release bundle
+        id: bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          release_tag="${{ github.event.inputs.release_tag }}"
+          if [[ -z "$release_tag" && "${GITHUB_REF_TYPE:-}" == "tag" ]]; then
+            release_tag="${GITHUB_REF_NAME}"
+          fi
+
+          stamp="$(date -u +%Y%m%dT%H%M%SZ)"
+          version="${release_tag:-main-${stamp}}"
+          bundle_dir="dist/ripex-ru-net-${version}"
+          archive="ripex-ru-net-${version}.zip"
+
+          test -f assets/ru_all_v4.prefixes.txt
+          test -f assets/manifest.json
+
+          mkdir -p "$bundle_dir"
+          cp assets/ru_all_v4.prefixes.txt "$bundle_dir/"
+          cp assets/manifest.json "$bundle_dir/"
+
+          (
+            cd "$bundle_dir"
+            sha256sum ru_all_v4.prefixes.txt manifest.json > SHA256SUMS
+          )
+
+          (
+            cd dist
+            zip -r "$archive" "$(basename "$bundle_dir")"
+          )
+
+          echo "archive_path=dist/${archive}" >> "$GITHUB_OUTPUT"
+          echo "archive_name=${archive}" >> "$GITHUB_OUTPUT"
+          echo "release_tag=${release_tag}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.bundle.outputs.archive_name }}
+          path: ${{ steps.bundle.outputs.archive_path }}
+          if-no-files-found: error
+
+      - name: Publish GitHub release asset
+        if: ${{ steps.bundle.outputs.release_tag != '' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.bundle.outputs.release_tag }}
+          files: ${{ steps.bundle.outputs.archive_path }}
+          generate_release_notes: true

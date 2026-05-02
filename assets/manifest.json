@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-05-01T11:10:11Z",
+  "snapshot_date": "2026-05-01",
+  "source_urls": [
+    "https://ftp.ripe.net/ripe/dbase/split/ripe.db.organisation.gz",
+    "https://ftp.ripe.net/ripe/dbase/split/ripe.db.inetnum.gz",
+    "https://ftp.ripe.net/ripe/dbase/split/ripe.db.aut-num.gz",
+    "https://ftp.ripe.net/ripe/dbase/split/ripe.db.route.gz"
+  ],
+  "cached_files": [
+    "data/ripe/cache/ripe.db.organisation.gz",
+    "data/ripe/cache/ripe.db.inetnum.gz",
+    "data/ripe/cache/ripe.db.aut-num.gz",
+    "data/ripe/cache/ripe.db.route.gz"
+  ],
+  "parsed": {
+    "organisations": 92965,
+    "inetnums": 4127492,
+    "aut_nums": 39361,
+    "routes": 454911
+  },
+  "datasets": {
+    "ru_as_route_v4": {
+      "detailed_rows": 63928,
+      "unique_prefixes": 61465,
+      "minimized_prefixes": 11222,
+      "invalid_prefixes_skipped": 0
+    },
+    "ru_org_inetnum_plus_ru_as_route_v4": {
+      "detailed_rows": 97531,
+      "unique_prefixes": 81580,
+      "minimized_prefixes": 10306,
+      "invalid_prefixes_skipped": 0
+    },
+    "ru_org_inetnum_v4": {
+      "detailed_rows": 33603,
+      "unique_prefixes": 33459,
+      "minimized_prefixes": 9687,
+      "invalid_prefixes_skipped": 0
+    }
+  },
+  "xray": {
+    "file": "ripex.dat",
+    "tags": [
+      "ru_org_inetnum_v4",
+      "ru_as_route_v4",
+      "ru_org_inetnum_plus_ru_as_route_v4",
+      "ru-providers"
+    ]
+  },
+  "duration_ms": 41067
+}

@@ -120,6 +120,19 @@ host instead of the local machine.
 It merges and minimizes the RIPE-derived RU dataset plus the direct,
 probe, and WL host feeds into one short deduped prefix list.
 
+`scripts/build-ru-router-list.sh` also syncs the tracked release files:
+
+- `assets/ru_all_v4.prefixes.txt`
+- `assets/manifest.json`
+
+Those are the release source-of-truth files committed to the repo.
+
+The repository also includes a GitHub Actions workflow at
+`.github/workflows/release-ru-net.yml` that does not rebuild datasets.
+It only packages the tracked files from `assets/` into a zip bundle with
+`SHA256SUMS`, uploads it as an Actions artifact, and publishes it as a
+GitHub Release asset on `v*` tags or manual runs with `release_tag`.
+
 You can build the same merged artifact directly with:
 
 ```bash
